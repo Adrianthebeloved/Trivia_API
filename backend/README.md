@@ -118,8 +118,7 @@ The `--reload` flag will detect file changes and restart the server automaticall
       "category": 2,
       "difficulty": 1,
       "id": 16,
-      "question": "Which Dutch graphic artist\u2013initials M C was a creator of
- optical illusions?"
+      "question": "Which Dutch graphic artist with initials M C was a creator of optical illusions?"
     },
     {
       "answer": "Mona Lisa",
@@ -208,7 +207,7 @@ Errors are returned as JSON objects in the following format:
 
 ```json
 {
-    "success": False,
+    "success": false,
     "error": 404,
     "message": "resource not found"
 }
